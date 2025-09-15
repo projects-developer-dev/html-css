@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../4 - FavIcon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylecaixa02.css">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article>aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu site</h1>
+
+        <nav> <!-- Navegação -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main> <!-- Principal -->
+
+        <section id="assuntos"><!-- Seção -->
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+
+        <section>
+            <section id="noticias">
+                <article> <!-- Artigo -->
+                    <h2>Noticias sobre o brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita vel minus vitae id
+                        possimus consequatur quasi eveniet. Culpa veniam sunt dolorum tenetur architecto perspiciatis
+                        placeat quae veritatis nihil distinctio.</p>
+                    <aside>
+                        Artigo escrito por José da Silva
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer> <!-- Rodapé -->
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+
+</html>

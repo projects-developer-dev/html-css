@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+a {
+  text-decoration: none; /* Remove a linha padrão */
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline; /* Mostra a linha ao passar o mouse */
+}
