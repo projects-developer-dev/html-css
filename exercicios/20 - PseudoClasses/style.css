@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {/*Links que já foram clicados*/
+    color: darkred;
+}
+
+a:hover { /*Ao passar o mouse sobre o link*/
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {/*Ao clicar sobre o link*/
+    color: yellow;
+}
+
+.especial{
+    background-color: rgb(255, 140, 140);
+}
+
+/*
+a::after{
+    content: ' [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}*/
+
+.especial::before{
+    content: '⚐ ';
+}
+
+.especial::after{
+    content: ' ⚑';
+}
+
+a::before{
+    content: '♺ ';
+}
+
+a::after{
+    content: ' ♹';
+}
